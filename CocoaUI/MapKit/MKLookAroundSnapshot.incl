@@ -1,0 +1,1 @@
+/*  MKLookAroundSnapshot  Bernie Wylde 20220714  Framework: MapKit  Inherits from: Object  macOS 13.0+*/#if _MACOSMAXALLOWED >= 130000// Imagetoolbox fn MKLookAroundSnapshotImage( MKLookAroundSnapshotRef ref ) = ImageRef#endif// 130000

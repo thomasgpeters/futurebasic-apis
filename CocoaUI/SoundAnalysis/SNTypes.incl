@@ -1,0 +1,1 @@
+/*  SNTypes  Bernie Wylde 20220415  Framework: SoundAnalysis  macOS 10.15+*/#if ndef _DEFINEDINCOCOA#define SNClassifierIdentifier as CFStringRef#endifsystem CFStringRef SNClassifierIdentifierVersion1

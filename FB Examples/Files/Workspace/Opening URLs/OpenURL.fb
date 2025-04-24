@@ -1,0 +1,1 @@
+/*   OpenURL*/void local fn DoItCFURLRef url = openpanel( 1, @"Open file" )if ( url )fn WorkspaceOpenURL( url )end ifend fnfn DoItHandleEvents

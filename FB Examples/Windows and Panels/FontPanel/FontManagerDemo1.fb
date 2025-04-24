@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoDialog( ev as long )select ( ev )case _fontManagerChangeFontNSLog(@"%@",fn DialogEventFont)end selectend fnFontManagerShowPanelon dialog fn DoDialogHandleEvents

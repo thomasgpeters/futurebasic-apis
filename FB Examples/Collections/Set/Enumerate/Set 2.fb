@@ -1,0 +1,1 @@
+/*  Set of strings*/include "NSLog.incl"void local fn DoItCFStringRef   pubCFSetRef set = fn SetWithObjects(@"Bird in Hand",@"Bull's Head",@"Railway",@"Church Inn",@"Frozen Mop",@"Roebuck",@"Plough & Flail",NULL)for pub in setNSLog(@"%@",pub)nextend fnfn DoItHandleEvents

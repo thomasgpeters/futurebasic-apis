@@ -1,0 +1,16 @@
+#define FBtoCLongVarType  0
+#define FBtoCFixedVarType 1
+#define FBtoCUnsignedLongVarType  2
+#define FBtoCShortVarType  3
+#define FBtoCUnsignedShortVarType  4
+#define FBtoCByteVarType  7
+#define FBtoCUnsignedByteVarType  8
+#define FBtoCBooleanVarType  9
+#define FBtoCUInt64VarType  10
+#define FBtoCSInt64VarType  11
+#define FBtoCSingleVarType  14
+#define FBtoCDoubleVarType  15
+#define FBtoCLDoubleVarType  16
+#define FBtoCStr1VarType  19
+#define FBtoCStr255VarType  146
+#define FBtoCContainerVarType  147

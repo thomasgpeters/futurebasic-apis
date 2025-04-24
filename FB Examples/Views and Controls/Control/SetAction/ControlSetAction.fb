@@ -1,0 +1,1 @@
+void local fn BuildWindowwindow 1, @"Action", (0,0)-(480,270)button 1,,, @"Q", (428,11,39,38),, NSBezelStyleCircularViewSetAutoresizingMask( 1, NSViewMinXMargin + NSViewMaxYMargin )ControlSetAction( 1, @"terminate:" )end fnfn BuildWindowHandleEvents

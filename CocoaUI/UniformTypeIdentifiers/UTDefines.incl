@@ -1,0 +1,1 @@
+/*  UTDefines.incl  Bernie Wylde 20210807  Framework: UniformTypeIdentifiers  macOS 11.0+*/#if _MACOSMAXALLOWED >= 110000#endif// 110000

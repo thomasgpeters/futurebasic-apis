@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFSetRef set1 = fn SetWithObjects(@"Bird in Hand",@"Bull's Head",@"Railway",NULL)CFSetRef set2 = fn SetWithObjects(@"Church Inn",@"Frozen Mop",@"Roebuck",@"Plough & Flail",NULL)CFSetRef set3 = concat( set1, set2 )print set3end fnfn DoItHandleEvents

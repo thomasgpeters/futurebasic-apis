@@ -1,0 +1,1 @@
+/*  AVGeometry  Bernie Wylde 20230503    Framework: AVFoundation*/// Value additions#if _MACOSMAXALLOWED >= 130000toolbox fn ValueWithCMVideoDimensions( CMVideoDimensions dimensions ) = ValueRef// macOS 13.0+toolbox fn ValueCMVideoDimensions( ValueRef ref ) = CMVideoDimensions// macOS 13.0+#endif// 130000

@@ -1,0 +1,1 @@
+include "NSLog.incl"NSLog(@"Alert Message\a")// trailing (\a) is same as calling NSLogAlertNSLog(@"Done")HandleEvents

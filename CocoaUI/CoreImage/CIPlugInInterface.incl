@@ -1,0 +1,1 @@
+/*  CIPlugInInterface.incl  Bernie Wylde 20200125  Framework: CoreImage  Inherits from: Object*//*  CIPlugInRegistration - https://developer.apple.com/documentation/coreimage/cipluginregistration?language=objc*/// Initializetoolbox fn CIPlugInRegistrationLoad( CIPlugInRegistrationRef ref, ptr host ) = BOOL

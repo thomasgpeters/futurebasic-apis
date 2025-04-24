@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@</key>
+	<string>Object</string>
+	<key>%%</key>
+	<string>&apos;%&apos; character</string>
+	<key>%d, %D</key>
+	<string>Signed 32-bit integer (int)</string>
+	<key>%u, %U</key>
+	<string>Unsigned 32-bit integer (unsigned int)</string>
+	<key>%x</key>
+	<string>Unsigned 32-bit integer (unsigned int), printed in hexadecimal using the digits 0–9 and lowercase a–f</string>
+	<key>%X</key>
+	<string>Unsigned 32-bit integer (unsigned int), printed in hexadecimal using the digits 0–9 and uppercase A–F</string>
+	<key>%o, %O</key>
+	<string>Unsigned 32-bit integer (unsigned int), printed in octal</string>
+	<key>%f</key>
+	<string>64-bit floating-point number (double)</string>
+	<key>%e</key>
+	<string>64-bit floating-point number (double), printed in scientific notation using a lowercase e to introduce the exponent</string>
+	<key>%E</key>
+	<string>64-bit floating-point number (double), printed in scientific notation using an uppercase E to introduce the exponent</string>
+	<key>%g</key>
+	<string>64-bit floating-point number (double), printed in the style of %%e if the exponent is less than –4 or greater than or equal to the precision, in the style of %%f otherwise</string>
+	<key>%G</key>
+	<string>64-bit floating-point number (double), printed in the style of %%E if the exponent is less than –4 or greater than or equal to the precision, in the style of %%f otherwise</string>
+	<key>%c</key>
+	<string>8-bit unsigned character (unsigned char)</string>
+	<key>%C</key>
+	<string>16-bit UTF-16 code unit (unichar)</string>
+	<key>%s</key>
+	<string>Null-terminated array of 8-bit unsigned characters</string>
+	<key>%S</key>
+	<string>Null-terminated array of 16-bit UTF-16 code units</string>
+	<key>%p</key>
+	<string>Void pointer (void *), printed in hexadecimal with the digits 0–9 and lowercase a–f, with a leading 0x</string>
+	<key>%a</key>
+	<string>64-bit floating-point number (double), printed in scientific notation with a leading 0x and one hexadecimal digit before the decimal point using a lowercase p to introduce the exponent</string>
+	<key>%A</key>
+	<string>64-bit floating-point number (double), printed in scientific notation with a leading 0X and one hexadecimal digit before the decimal point using a uppercase P to introduce the exponent</string>
+	<key>%F</key>
+	<string>64-bit floating-point number (double), printed in decimal notation</string>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+/*  DateComponents*/include "NSLog.incl"void local fn DoItNSUInteger units = NSCalendarUnitYear + NSCalendarUnitMonth + NSCalendarUnitDayunits += NSCalendarUnitHour + NSCalendarUnitMinute + NSCalendarUnitSecondDateComponentsRef comps = fn CalendarComponentsFromDate( fn CalendarCurrent, units, fn DateInit )NSLog(@"%@",comps)end fnfn DoItHandleEvents

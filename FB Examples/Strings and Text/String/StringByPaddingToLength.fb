@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFStringRef s = fn StringByPaddingToLength( @"abc", 9, @".", 0 )NSLog(@"%@",s)s = fn StringByPaddingToLength( @"abc", 2, @".", 0 )NSLog(@"%@",s)s = fn StringByPaddingToLength( @"abc", 9, @". ", 1 )NSLog(@"%@",s)// Notice that the first character in the padding is " "end fnfn DoItHandleEvents

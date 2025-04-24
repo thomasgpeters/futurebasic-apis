@@ -1,0 +1,1 @@
+/*  TimerBegin (ScheduledWithInterval)*/include "NSLog.incl"timerbegin , 1, YESfn SoundPlay( fn SoundNamed(@"Tink") )NSLog(@"Timer fired")timerendHandleEvents

@@ -1,0 +1,1 @@
+/*  VNRecognizedPoint3D - https://developer.apple.com/documentation/vision/vnrecognizedpoint3d?language=objc  Bernie Wylde 20230609  Framework: Vision  Inherits from: VNPoint3D/Object  macOS 14.0+*/#if _MACOSMAXALLOWED >= 140000#endif// 140000

@@ -1,0 +1,1 @@
+/*  AVUtilities - https://developer.apple.com/documentation/avfoundation/1390116-avmakerectwithaspectratioinsider?language=obj  Bernie Wylde 20180802  Framework: AVFoundation*/toolbox fn AVMakeRectWithAspectRatioInsideRect( CGSize aspectRatio, CGRect boundingRect ) = CGRect

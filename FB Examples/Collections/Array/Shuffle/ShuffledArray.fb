@@ -1,0 +1,1 @@
+/*  ShuffledArray  macOS 10.12+*/include "Tlbx GameplayKit.incl"// requiredinclude "NSLog.incl"void local fn DoItCFArrayRef array1 = @[@"alpha",@"bravo",@"charlie",@"delta",@"echo",@"foxtrot",@"golf",@"hotel"]NSLog(@"- original -\n%@",array1)CFArrayRef array2 = fn ArrayShuffledArray(array1)NSLog(@"\n- shuffled -\n%@",array2)end fnfn DoItHandleEvents

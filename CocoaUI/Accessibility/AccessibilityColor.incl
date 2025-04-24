@@ -1,0 +1,1 @@
+/*  AccessibilityColor  Bernie Wylde 20221027    Protocol  macOS 11.0+*/#if _MACOSMAXALLOWED >= 110000// Nametoolbox fn AccessibilityColorName( AccessibilityColorRef ref ) = CFStringRef#endif// 110000

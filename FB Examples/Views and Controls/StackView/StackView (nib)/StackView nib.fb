@@ -1,0 +1,1 @@
+/*  StackView*/include "NSLog.incl"_window = 1begin enum 1_radio1_radio2_radio3_radio4_stackviewend enumvoid local fn DoDialog( ev as long, tag as long )select ( ev )case _btnClickNSLog(@"%ld",tag)end selectend fnnibwindow 1, @"Window"ViewSetAutoresizingMask( _stackview, NSViewHeightSizable )on dialog fn DoDialogHandleEvents

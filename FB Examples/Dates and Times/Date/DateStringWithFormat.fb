@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFStringRef string = fn DateStringWithFormat( fn DateInit, NULL )NSLog(@"%@",string)end fnfn DoItHandleEvents

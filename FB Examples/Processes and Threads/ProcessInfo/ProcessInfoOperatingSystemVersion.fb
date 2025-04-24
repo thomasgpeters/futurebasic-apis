@@ -1,0 +1,1 @@
+/*  OS version in six-digit integer format, e.g. 101500*/include "NSLog.incl"local fn OSVers as longNSOperatingSystemVersion vers = fn ProcessInfoOperatingSystemVersionend fn = fn StringIntegerValue( fn StringWithFormat( @"%.2ld%.2ld%.2ld",vers.majorVersion,vers.minorVersion,vers.patchVersion ) )NSLog(@"%ld",fn OSVers)HandleEvents

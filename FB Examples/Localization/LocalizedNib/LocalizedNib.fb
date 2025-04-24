@@ -1,0 +1,1 @@
+/*  LocalizedNib*/include resources "fr.lproj"nibmenu @"MainMenu"nibwindow 1, @"Window"HandleEvents

@@ -1,0 +1,1 @@
+include "Tlbx AVFoundation.incl"void local fn DoItAVSpeechUtteranceRef utterance = fn AVSpeechUtteranceWithString( @"Welcome to FutureBasic" )AVSpeechUtteranceSetVolume( utterance, 0.5 )AVSpeechSynthesizerRef syn = fn AVSpeechSynthesizerInitAVSpeechSynthesizerSpeakUtterance( syn, utterance )end fnfn DoItHandleEvents

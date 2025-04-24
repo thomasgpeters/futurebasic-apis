@@ -1,0 +1,1 @@
+/*  UTTagClass.incl  Bernie Wylde 20210807  Framework: UniformTypeIdentifiers  macOS 11.0+*/#if ndef _DEFINEDINCOCOA#define UTTagClassFilenameExtension as CFStringRef#define UTTagClassMIMEType as CFStringRef#endif

@@ -1,0 +1,1 @@
+/*   PreferredFilenameExtensionForType*/include "NSLog.incl"void local fn DoItCFStringRef type = fn WorkspacePreferredFilenameExtensionForType( @"com.apple.iwork.numbers.sffnumbers" )NSLog(@"%@",type)end fnfn DoitHandleEvents

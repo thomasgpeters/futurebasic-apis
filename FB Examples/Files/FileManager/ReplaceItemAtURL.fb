@@ -1,0 +1,1 @@
+/*   ReplaceItemAtURL*/include "NSLog.incl"void local fn DoItCFURLRef url1, url2url1 = openpanel 1, @"Choose item 1",, @"Choose"if ( url1 )url2 = openpanel 1, @"Choose item 2",, @"Choose"if ( url2 )if ( fn FileManagerReplaceItemAtURL( url1, url2 ) )NSLog(@"Item replaced")elseNSLog(@"Item was not replaced")end ifend ifend ifend fnfn DoItHandleEvents

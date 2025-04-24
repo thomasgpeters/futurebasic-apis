@@ -1,0 +1,1 @@
+void local fn LoadNibWindownibwindow 1, @"Window"end fnvoid local fn DoDialog( ev as long )select ( ev )case _splitViewCanCollapseSubview//DialogEventSetBool(YES)end selectend fnfn LoadNibWindowon dialog fn DoDialogHandleEvents

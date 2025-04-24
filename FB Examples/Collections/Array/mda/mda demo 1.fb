@@ -1,0 +1,1 @@
+/*  statement    mda tag( dim1, ... ) = value  function    value = mda tag( dim1, ... )  omitting the tag parameter defaults to array 0*/void local fn DoItmda(0) = @"whisky"mda(1) = @"november"mda(2) = @"charlie"mda(3) = @"echo"print mda(0)print mda(1)print mda(2)print mda(3)end fnfn DoItHandleEvents

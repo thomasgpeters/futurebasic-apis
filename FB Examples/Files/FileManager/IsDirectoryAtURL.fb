@@ -1,0 +1,1 @@
+/*   IsDirectoryAtURL*/include "NSLog.incl"void local fn DoItOpenPanelSetCanChooseDirectories( 1, YES )CFURLRef url = openpanel 1if ( url )NSLog(@"Item is directory: %d",fn FileManagerIsDirectoryAtURL( url ) )end ifend fnfn DoItHandleEvents

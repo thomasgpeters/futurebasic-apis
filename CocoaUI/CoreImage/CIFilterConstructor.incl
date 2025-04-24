@@ -1,0 +1,1 @@
+/*  CIFilterConstructor.incl - https://developer.apple.com/documentation/coreimage/cifilterconstructor?language=objc  Bernie Wylde 20200125  Framework: CoreImage*/toolbox fn CIFilterConstructorFilterWithName( CIFilterConstructorRef ref, CFStringRef name ) = CIFilterRef

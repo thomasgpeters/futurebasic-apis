@@ -1,0 +1,1 @@
+/*  CIImageRep.incl  Bernie Wylde 20180628  Framework: CoreImage  Inherits from: ImageRep/Object  NSCIImageRep - https://developer.apple.com/documentation/appkit/nsciimagerep?language=objc*/// inittoolbox fn CIImageRepWithCIImage( CIImageRef image ) = CIImageRepRef// return imagetoolbox fn CIImageRepCIImage( CIImageRepRef ref ) = CIImageRef

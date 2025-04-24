@@ -1,0 +1,1 @@
+/*  OpenURLWithConfiguration  macOS 10.15+*/void local fn DoItCFURLRef url = openpanel 1if ( url )WorkspaceOpenConfigurationRef config = fn WorkspaceOpenConfigurationInitWorkspaceOpenConfigurationSetHides( config, YES )WorkspaceOpenURLWithConfiguration( url, config, NULL, NULL )end ifend fnfn DoItHandleEvents

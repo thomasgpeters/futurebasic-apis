@@ -1,0 +1,1 @@
+/*  DictionaryWithObjects*/include "NSLog.incl"void local fn DoItCFDictionaryRef dict = fn DictionaryWithObjects( @"First obj", @"key1", @"Second obj", @"key2", @"Third obj", @"key3", NULL )// Note: last param must be NULLNSLog(@"%@",dict)end fnfn DoItHandleEvents

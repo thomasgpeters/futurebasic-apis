@@ -1,0 +1,1 @@
+def fn Over as CFStringRef = @"over "void local fn DoItCFStringRef     q = @"quick ", f = @"fox "CFArrayRef      a = @[@"brown ",@"lazy "]CFDictionaryRef j = @{@"j":@"jumps "}CFStringRef string = concat( @"The ", q, a[0], f, j[@"j"], fn Over, @"the ", a[1], @"dog" )print stringend fnfn DoItHandleEvents

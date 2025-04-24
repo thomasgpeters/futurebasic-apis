@@ -1,0 +1,1 @@
+/*  VNRequestRevisionProviding - https://developer.apple.com/documentation/vision/vnrequestrevisionproviding?language=objc  Bernie Wylde 20220424  Framework: Vision  Protocol  macOS 10.14+*/#if _MACOSMAXALLOWED >= 101400#endif// 101400

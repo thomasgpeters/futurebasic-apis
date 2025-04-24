@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoAppEvent( ev as long )select ( ev )case _appOpenURLsNSLog(@"%@",fn AppEventArray)end selectend fnwindow 1, @"Droplet Demo", (0,0,480,270), NSWindowStyleMaskTitledtextlabel 1, @"Drop file(s) on this app's Finder icon", (18,126,444,17)ControlSetAlignment( 1, NSTextAlignmentCenter )on appevent fn DoAppEventHandleEvents

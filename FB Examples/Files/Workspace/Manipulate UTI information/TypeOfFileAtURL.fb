@@ -1,0 +1,1 @@
+/*   TypeOfFileAtURL*/include "NSLog.incl"void local fn DoItCFURLRef url = openpanel( 1, @"Choose file" )if ( url )CFStringRef type = fn WorkspaceTypeOfFileAtURL( url )NSLog(@"%@",type)end ifend fnfn DoItHandleEvents

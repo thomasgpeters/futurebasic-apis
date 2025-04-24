@@ -1,0 +1,1 @@
+/*  CABase.incl  Bernie Wylde 20190814  Framework: QuartzCore*//* Returns the current CoreAnimation absolute time. This is the result of * calling mach_absolute_time () and converting the units to seconds. */toolbox fn CACurrentMediaTime = CFTimeInterval

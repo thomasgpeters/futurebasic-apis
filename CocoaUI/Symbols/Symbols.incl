@@ -1,0 +1,1 @@
+/*  Symbols.incl  Bernie Wylde 20230606  Framework: Symbols  macOS 14.0+*/#if _MACOSMAXALLOWED >= 140000include library "Symbols"include "Symbols.h"include "Symbols.m"include "CocoaUI/Symbols/SymbolEffect.incl"#endif// 140000

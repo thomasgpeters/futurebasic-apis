@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFDictionaryRef dict = @{@"Name":@"Bruce",@"Age":@45}CFStringRef string = dict[@"Name"]NSLog(@"Name:\t%@",string)NSLog(@"Age:\t%@",dict[@"Age"])end fnfn DoitHandleEvents

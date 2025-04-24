@@ -1,0 +1,1 @@
+include "Tlbx PDFKit.incl"void local fn DoItPDFDocumentRef pdfDocnibwindow 1, @"Window"CFURLRef url = openpanel 1,, @"pdf"if ( url )pdfDoc = fn PDFDocumentWithURL( url )PDFViewSetDocument( 1, pdfDoc )PDFThumbnailViewSetThumbnailSize( 2, fn CGSizeMake(150,196) )PDFThumbnailViewSetPDFView( 2, 1 )window 1end ifend fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+/*   URLForApplicationDirectory*/include "NSLog.incl"void local fn DoItCFURLRef appDirURL = fn FileManagerURLForApplicationDirectoryNSLog(@"Application directory: %@", appDirURL)end fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+/*  AVPortraitEffectsMatte - https://developer.apple.com/documentation/avfoundation/avportraiteffectsmatte?language=objc  Bernie Wylde 20230508  Framework: AVFoundation  Inherits from: Object  macOS 10.14+*/#if _MACOSMAXALLOWED >= 101400#endif// 101400

@@ -1,0 +1,1 @@
+void local fn BuildWindowwindow 1WindowCenter(1)textlabel 1, @"Take a look at this app's icon in the Dock.", (18,363,255,17)textlabel 2, @"It should look something like this:", (172,232,206,17)imageview 3,, NSImageNameAdvanced, (251,176,48,48)end fnAppSetIconImage( NSImageNameAdvanced )fn BuildWindowHandleEvents

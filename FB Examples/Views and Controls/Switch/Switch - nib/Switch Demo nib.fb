@@ -1,0 +1,1 @@
+/*  Switch Demo  macOS 10.15+*/include "NSLog.incl"void local fn DoDialog( ev as long, tag as long )select ( ev )case _btnClickNSLog(@"%ld,%ld",tag,fn SwitchState( tag ) )end selectend fnnibwindow 1, @"Window"on dialog fn DoDialogHandleEvents

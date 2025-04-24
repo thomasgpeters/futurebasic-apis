@@ -1,0 +1,1 @@
+/*   IsFilePackageAtURL*/include "NSLog.incl"void local fn DoItCFURLRef   urlBOOL       flagurl = openpanel 1, @"Choose file"if ( url )flag = fn WorkspaceIsFilePackageAtURL( url )if ( flag )NSLog( @"File is package: %@", url )elseNSLog( @"File is not a package: %@", url )end ifend ifend fnfn DoItHandleEvents

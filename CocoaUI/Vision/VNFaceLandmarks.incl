@@ -1,0 +1,1 @@
+/*  VNFaceLandmarks - https://developer.apple.com/documentation/vision/vnfacelandmarks?language=objc  Bernie Wylde 20220424  Framework: Vision  Inherits from: Object*/// Accuracytoolbox fn VNFaceLandmarksConfidence( VNFaceLandmarksRef ref ) = VNConfidence

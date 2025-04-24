@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="EBi-sg-yAv">
+                        <rect key="frame" x="143" y="121" width="195" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Fruit" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" pullsDown="YES" id="ueE-i9-qjb">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" id="dHx-DS-pKl">
+                                <items>
+                                    <menuItem title="Fruit" state="on" hidden="YES" id="wpk-75-nkk"/>
+                                    <menuItem title="Orange" id="T4b-Mf-Ryn"/>
+                                    <menuItem title="Apple" tag="101" identifier="101" id="OXl-8l-hD9">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menu key="submenu" title="Apple" identifier="101" id="8QE-hv-6vL">
+                                            <items>
+                                                <menuItem title="Granny Smith" id="ahi-Gc-UFd">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="Egremont Russet" id="CFb-pJ-Ytx">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="Golden Delicious" id="hFI-5y-UfC">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                            </items>
+                                        </menu>
+                                    </menuItem>
+                                    <menuItem title="Gooseberry" id="cs1-gU-gsx"/>
+                                    <menuItem title="Melon" id="oDq-vZ-tDS"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="139" y="147"/>
+        </window>
+        <popUpButton verticalHuggingPriority="750" id="PBD-XX-85F">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="25"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="wIy-7w-Qmq" id="w0k-mx-0Ib">
+                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                <font key="font" metaFont="system"/>
+                <menu key="menu" id="oOA-oH-oTG">
+                    <items>
+                        <menuItem title="Item 1" state="on" id="wIy-7w-Qmq"/>
+                        <menuItem title="Item 2" id="qK8-ea-ahD"/>
+                        <menuItem title="Item 3" id="lMJ-jh-4W7"/>
+                    </items>
+                </menu>
+            </popUpButtonCell>
+            <point key="canvasLocation" x="132" y="375"/>
+        </popUpButton>
+    </objects>
+</document>

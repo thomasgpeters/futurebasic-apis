@@ -1,0 +1,1 @@
+/*  ProcessInfoPhysicalMemory*/include "NSLog.incl"void local fn DoItCFStringRef string = fn ByteCountFormatterStringFromByteCount( fn ProcessInfoPhysicalMemory, NSByteCountFormatterCountStyleFile )NSLog(@"Physical memory: %@",string)end fnfn DoitHandleEvents

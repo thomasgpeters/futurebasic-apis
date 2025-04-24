@@ -1,0 +1,1 @@
+/*  MKUserLocationView - https://developer.apple.com/documentation/mapkit/mkuserlocationview?language=objc  Bernie Wylde 20220714  Framework: MapKit  Inherits from: MKAnnotationView/View/Responder/Object  macOS	 11.0+*/#if _MACOSMAXALLOWED >= 110000#endif// 110000

@@ -1,0 +1,1 @@
+include "NSLog.incl"_window = 1begin enum 1_popupLabel_popupBtnend enumvoid local fn BuildWindowwindow _window, @"PopUpButton", (0,0,350,200)textlabel _popupLabel, @"Popup:", (90,92,47,17)popupbutton _popupBtn,,, @"Item 1;Item 2;-;Item 3;-;Item 4;Item 5", (141,86,120,26)end fnfn BuildWindowHandleEvents

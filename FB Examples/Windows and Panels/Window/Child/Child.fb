@@ -1,0 +1,1 @@
+void local fn BuildWindowswindow 1, @"Parent", (250,250,550,400)panel 2, @"Child", (810,380,150,270)WindowAddChildWindow( 1, 2, NSWindowAbove )window 3, @"Grandchild", (810,250,150,100), NSWindowStyleMaskTitledWindowAddChildWindow( 2, 3, NSWindowAbove )window 1end fnfn BuildWindowsHandleEvents

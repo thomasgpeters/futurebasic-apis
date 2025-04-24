@@ -1,0 +1,1 @@
+/*  PDFAction.incl - https://developer.apple.com/documentation/pdfkit/pdfaction?language=objc  Bernie Wylde 20180425  Framework: PDFKit  Inherits from: Object*/// Typetoolbox fn PDFActionType( PDFActionRef ref ) = CFStringRef

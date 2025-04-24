@@ -1,0 +1,1 @@
+/*  ArrayWithCapacity*/include "NSLog.incl"void local fn DoItCFMutableArrayRef array = fn MutableArrayWithCapacity( 0 )MutableArrayAddObject( array, @"Whisky" )MutableArrayAddObject( array, @"November" )MutableArrayAddObject( array, @"Tango" )MutableArrayAddObject( array, @"Mike" )NSLog(@"%@",array)end fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+/*  PHCloudIdentifier  Bernie Wylde 20250112  Framework: Photos  Inherits from: Object*/// Usingtoolbox fn PHCloudIdentifierWithStringValue( CFStringRef string ) = PHCloudIdentifierReftoolbox fn PHCloudIdentifierStringValue( PHCloudIdentifierRef ref ) = CFStringRef

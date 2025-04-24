@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFStringRef   s, string1, string2s = @"abc"string1 = fn StringWithFormat( @"%@, %d, %0.2f", s, 12, 65.347 )NSLog(@"%@",string1)string2 = fn StringByAppendingFormat( string1, @", xyz, %f", 123.456 )NSLog(@"%@",string2)end fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+/*  objc.incl  Bernie Wylde 20211014*/#if ndef _DEFINEDINCOCOA#define ClassRef as ptr// Class#define SELRef as ptr// SEL#endif#if ndef _DEFINEDINCOCOA#define BOOL as Boolean#endifsystem BOOL YES, NO

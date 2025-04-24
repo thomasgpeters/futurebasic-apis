@@ -1,0 +1,1 @@
+/*  VNDetectHumanBodyPose3DRequest - https://developer.apple.com/documentation/vision/vndetecthumanbodypose3drequest?language=objc  Bernie Wylde 20230609  Framework: Vision  Inherits from: VNStatefulRequest/VNImageBasedRequest/VNRequest/Object  macOS 14.0+*/#if _MACOSMAXALLOWED >= 140000#endif// 140000

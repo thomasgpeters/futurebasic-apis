@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFCharacterSetRef set = fn CharacterSetDecimalDigitSetCFStringRef string = fn StringByTrimmingCharactersInSet( @"123alpha456", set )NSLog(@"%@",string)end fnfn DoItHandleEvents

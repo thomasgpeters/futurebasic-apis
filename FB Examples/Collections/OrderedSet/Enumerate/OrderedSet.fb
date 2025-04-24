@@ -1,0 +1,1 @@
+/*  OrderedSet of strings*/include "NSLog.incl"void local fn DoItCFStringRef   stringOrderedSetRef ordSet = fn OrderedSetWithObjects(@"Uniform",@"Victor",@"Whisky",@"Xray",@"Yankee",@"Zulu",NULL)for string in ordSetNSLog(@"%@",string)nextend fnfn DoItHandleEvents

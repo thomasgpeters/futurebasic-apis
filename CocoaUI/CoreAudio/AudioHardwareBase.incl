@@ -1,0 +1,1 @@
+/*  AudioHardwareBase.incl  Bernie Wylde 20241227  Framework: CoreAudio*/#if ndef _DEFINEDINCOCOA#define AudioObjectID as UInt32#define AudioDeviceID as AudioObjectID // deprecated#endif // _DEFINEDINCOCOA

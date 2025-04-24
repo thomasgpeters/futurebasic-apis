@@ -1,0 +1,1 @@
+/*   OpenURLWithApplication*/void local fn DoItCFURLRef url = openpanel( 1, @"Pick a file to open in TextEdit" )if ( url )fn WorkspaceOpenURLWithApplication( url, @"TextEdit", NO )end ifend fnfn DoitHandleEvents

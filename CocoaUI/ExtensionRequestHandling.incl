@@ -1,0 +1,1 @@
+/*  ExtensionRequestHandling  Bernie Wylde 20220512  Framework: Foundation  Protocol  NSExtensionRequestHandling - https://developer.apple.com/documentation/foundation/nsextensionrequesthandling?language=objc*/toolbox ExtensionRequestHandlingBeginRequestWithExtensionContext( ExtensionRequestHandlingRef ref, ExtensionContextRef context )

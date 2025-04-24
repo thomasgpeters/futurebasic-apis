@@ -1,0 +1,1 @@
+/*  CIPlugIn.incl - https://developer.apple.com/documentation/coreimage/ciplugin?language=objc  Bernie Wylde 20200125  Framework: CoreImage  Inherits from: Object*/// Loadingtoolbox CIPlugInLoadNonExecutablePlugIns// Type methods#if _MACOSMAXALLOWED >= 101500toolbox CIPlugInLoadNonExecutablePlugIn( CFURLRef url )// macOS 10.15+#endif// 101500

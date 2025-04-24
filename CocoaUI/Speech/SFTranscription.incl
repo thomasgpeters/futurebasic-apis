@@ -1,0 +1,1 @@
+/*  SFTranscription  Bernie Wylde 20220408  Framework: Speech  Inherits from: Object  macOS 10.15+*/// Transcribing utterancestoolbox fn SFTranscriptionFormattedString( SFTranscriptionRef ref ) = CFStringRef// Individual utterancestoolbox fn SFTranscriptionSegments( SFTranscriptionRef ref ) = CFArrayRef

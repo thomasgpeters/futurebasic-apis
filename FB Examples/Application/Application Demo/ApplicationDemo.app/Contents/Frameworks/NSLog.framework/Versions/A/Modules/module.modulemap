@@ -1,0 +1,6 @@
+framework module NSLog {
+  umbrella header "NSLog.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+/*  TimerScheduledWithInterval  Bernie Wylde 20180622*/include "NSLog.incl"local fn MyTimerCallback( t as TimerRef )fn SoundPlay( fn SoundNamed(@"Tink") )NSLog(@"Timer fired")end fnfn TimerScheduledWithInterval( 2, @fn MyTimerCallback, NULL, YES )HandleEvents

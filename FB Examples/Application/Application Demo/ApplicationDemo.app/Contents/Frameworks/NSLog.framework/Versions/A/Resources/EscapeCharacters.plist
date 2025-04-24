@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>\a</key>
+	<string>alert</string>
+	<key>\b</key>
+	<string>backspace</string>
+	<key>\n, \r</key>
+	<string>newline</string>
+	<key>\t</key>
+	<string>tab</string>
+	<key>\x</key>
+	<string>hex</string>
+	<key>\\</key>
+	<string>backslash character</string>
+	<key>\&quot;</key>
+	<string>double quote character</string>
+	<key>\u</key>
+	<string>4-digit unicode character</string>
+	<key>\U</key>
+	<string>8-digit unicode character</string>
+</dict>
+</plist>

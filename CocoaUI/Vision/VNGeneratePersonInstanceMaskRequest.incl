@@ -1,0 +1,1 @@
+/*  VNGeneratePersonInstanceMaskRequest - https://developer.apple.com/documentation/vision/vngeneratepersoninstancemaskrequest?language=objc  Bernie Wylde 20230609  Framework: Vision  Inherits from: VNImageBasedRequest/VNRequest/Object  macOS 14.0+*/#if _MACOSMAXALLOWED >= 140000#endif// 140000

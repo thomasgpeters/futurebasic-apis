@@ -1,0 +1,26 @@
+/*
+ SharingCollaborationModeRestriction.h
+
+ Bernie Wylde
+ */
+
+#import "CocoaUI.h"
+
+#if __MAC_OS_X_VERSION_MAX_ALLOWED >= 150000
+
+// Instance properties
+CFStringRef SharingCollaborationModeRestrictionAlertDismissButtonTitle( NSSharingCollaborationModeRestriction *ref );
+CFStringRef SharingCollaborationModeRestrictionAlertMessage( NSSharingCollaborationModeRestriction *ref );
+CFURLRef SharingCollaborationModeRestrictionAlertRecoverySuggestionButtonLaunchURL( NSSharingCollaborationModeRestriction *ref );
+CFStringRef SharingCollaborationModeRestrictionAlertRecoverySuggestionButtonTitle( NSSharingCollaborationModeRestriction *ref );
+CFStringRef SharingCollaborationModeRestrictionAlertTitle( NSSharingCollaborationModeRestriction *ref );
+NSSharingCollaborationMode SharingCollaborationModeRestrictionDisabledMode( NSSharingCollaborationModeRestriction *ref );
+
+// Instance methods
+NSSharingCollaborationModeRestriction *SharingCollaborationModeRestrictionWithDisabledMode( NSSharingCollaborationMode disabledMode );
+NSSharingCollaborationModeRestriction *SharingCollaborationModeRestrictionWithAlertTitle( NSSharingCollaborationMode disabledMode, CFStringRef alertTitle, CFStringRef alertMessage );
+NSSharingCollaborationModeRestriction *SharingCollaborationModeRestrictionWithAlertDismissButtonTitle( NSSharingCollaborationMode disabledMode, CFStringRef alertTitle, CFStringRef alertMessage, CFStringRef dismissBtnTitle );
+NSSharingCollaborationModeRestriction *SharingCollaborationModeRestrictionWithRecoverySuggestionButtonLaunchURL( NSSharingCollaborationMode disabledMode, CFStringRef alertTitle, CFStringRef alertMessage, CFStringRef dismissBtnTitle, CFStringRef recoverySuggestionBtnTitle, CFURLRef recoverySuggestionBtnLaunchURL );
+
+#endif // 150000
+

@@ -1,0 +1,1 @@
+void local fn DoitCFMutableArrayRef mutArray = fn MutableArrayWithArray( @[@"Alpha",@"Bravo",@"Cuthbert",@"Delta"] )print mutArraymutArray[2] = @"Charlie" // shorthand for: MutableArrayReplaceObjectAtIndex( mutArray, @"Charlie", 2 )print mutArrayend fnfn DoItHandleEvents

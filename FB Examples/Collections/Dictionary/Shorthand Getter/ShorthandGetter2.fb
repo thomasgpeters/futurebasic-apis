@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItCFDictionaryRef dictCFArrayRef keysCFStringRef keydict = @{@"Key1":@"One",@"Key2":@"Two",@"Key3":@"Three",@"Key4":@"Four"}keys = fn DictionaryAllKeys( dict )for key in keysNSLog(@"%@",dict[key])nextend fnfn DoitHandleEvents

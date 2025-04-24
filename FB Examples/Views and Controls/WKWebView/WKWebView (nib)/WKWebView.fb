@@ -1,0 +1,1 @@
+include "Tlbx WebKit.incl"_window = 1begin enum 1_webViewend enumvoid local fn BuildWindownibwindow _window, @"Window"CFURLRef url = fn URLWithString(@"http://www.apple.com")URLRequestRef request = fn URLRequestWithURL( url )fn WKWebViewLoadRequest( _webView, request )end fnfn BuildWindowHandleEvents

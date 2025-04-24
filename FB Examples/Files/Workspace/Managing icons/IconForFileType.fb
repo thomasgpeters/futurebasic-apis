@@ -1,0 +1,1 @@
+void local fn BuildWindowwindow 1, @"IconForFileAtURL", (0,0,550,400)ImageRef image = fn WorkspaceIconForFileType( @"public.folder" )imageview 2,, image, (227,152,96,96), NSImageScaleProportionallyUpOrDownend fnfn BuildWindowHandleEvents

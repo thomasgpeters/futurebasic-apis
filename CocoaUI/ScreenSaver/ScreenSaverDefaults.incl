@@ -1,0 +1,1 @@
+/*  ScreenSaverDefaults - https://developer.apple.com/documentation/screensaver/screensaverdefaults?language=objc  Bernie Wylde 20241014  Framework: ScreenSaver  Inherits from: UserDefaults/Object*/toolbox fn ScreenSaverDefaultsForModuleWithName( CFStringRef moduleName ) = ScreenSaverDefaultsRef

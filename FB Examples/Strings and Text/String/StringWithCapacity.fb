@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoitCFMutableStringRef s = fn MutableStringWithCapacity( 0 )CFStringAppend( s, @"abc" )CFStringAppend( s, @"xyz" )NSLog(@"%@",s)end fnfn DoitHandleEvents

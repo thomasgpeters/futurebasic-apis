@@ -1,0 +1,1 @@
+/*  Reverse enumerated array of strings*/include "NSLog.incl"void local fn DoItCFStringRef   stringCFArrayRef array = @[@"Alpha", @"Bravo", @"Charlie", @"Delta", @"Echo", @"Foxtrot"]for string in array step -1NSLog(@"%@",string)nextend fnfn DoItHandleEvents

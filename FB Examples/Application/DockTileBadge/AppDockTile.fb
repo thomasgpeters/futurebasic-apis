@@ -1,0 +1,1 @@
+#plist CFBundleIconFile @""window 1, @"AppDockTileBadge", (0,0,480,270)textlabel 1, @"Take a look at this app's icon in the Dock", (20,20,300,17)AppDockTileSetBadgeLabel( @"9" )AppDockTileDisplayHandleEvents

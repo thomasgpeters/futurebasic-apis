@@ -1,0 +1,1 @@
+/*   GetInfoForFileAtURL*/include "NSLog.incl"void local fn DoItCFStringRef   appName, typeCFURLRef url = openpanel 1, @"Open file"if ( url )fn WorkspaceGetInfoForFileAtURL( url, @appName, @type )NSLog(@"name:%@\ttype:%@",appName,type)end ifend fnfn DoItHandleEvents

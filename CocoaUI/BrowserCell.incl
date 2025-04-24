@@ -1,0 +1,1 @@
+/*  BrowserCell  Bernie Wylde 20190912  Framework: AppKit  Inherits from: Cell/Object  NSBrowserCell - https://developer.apple.com/documentation/appkit/nsbrowsercell?language=objc*/// Classtoolbox fn BrowserCellClass = ClassRef

@@ -1,0 +1,1 @@
+/*  PHObject  Bernie Wylde 20250112  Framework: Photos  Inherits from: Object*/// Createtoolbox fn PHObjectInit = PHObjectRef // autorelease// Identifytoolbox fn PHObjectLocalIdentifier( PHObjectRef ref ) = CFStringRef

@@ -1,0 +1,1 @@
+// "Headers" 1include "Tlbx SpriteKit.incl"// "Resources" 1resources "BearImages.atlas"// "Globals" 1// "Includes" 1include "BearImpl.incl"// "Main" 1include "SpriteKit Project.main"

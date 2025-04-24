@@ -1,0 +1,1 @@
+/*  MDA.incl  Bernie Wylde 20230511*///#define MDAObjRef as ptr// Infotoolbox fn MDAWithTag( long tag ) = MDAObjReftoolbox fn MDADims( long tag ) = longtoolbox fn MDAArray( long tag ) = CFMutableArrayReftoolbox MDASet( long tag, MDAObjRef ref )

@@ -1,0 +1,1 @@
+/*  AVAudioProcessingSettings  Framework: AVFoundation  Bernie Wylde 20210715*/#if ndef _DEFINEDINCOCOA#define AVAudioTimePitchAlgorithm as CFStringRef#endifsystem CFStringRef AVAudioTimePitchAlgorithmSpectralsystem CFStringRef AVAudioTimePitchAlgorithmTimeDomainsystem CFStringRef AVAudioTimePitchAlgorithmVarispeed

@@ -1,0 +1,1 @@
+_mOptions = 1begin enum_iSomething_iColor_iSomethingElseend enum_mColor = 101begin enum_iRed_iGreen_iBlueend enumvoid local fn DoMenu( menuID as long, itemID as long )if ( menuID == _mColor )MenuSelectItem( menuID, itemID )end ifend fnnibmenu @"MainMenu"on menu fn DoMenuHandleEvents

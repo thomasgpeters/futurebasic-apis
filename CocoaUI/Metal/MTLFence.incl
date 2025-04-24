@@ -1,0 +1,1 @@
+/*  MTLFence  Bernie Wylde 20241220  Framework: Metal  Protocol*/// Identifytoolbox fn MTLFenceDevice( MTLFenceRef ref ) = MTLDeviceReftoolbox fn MTLFenceLabel( MTLFenceRef ref ) = CFStringReftoolbox MTLFenceSetLabel( MTLFenceRef ref, CFStringRef label )

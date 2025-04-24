@@ -1,0 +1,1 @@
+/*  Nib.incl  Bernie Wylde 20211013  Framework: AppKit  Inherits from: Object  NSNib - https://developer.apple.com/documentation/appkit/nsnib?language=objc*/// Classtoolbox fn NibClass = ClassRef

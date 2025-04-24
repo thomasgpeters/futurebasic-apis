@@ -1,0 +1,1 @@
+/*   AttributesOfItemAtURL1*/include "NSLog.incl"void local fn DoItCFURLRef url = openpanel 1, @"Choose item",, @"Choose"if ( url )NSLog(@"Item attributes: %@",fn FileManagerAttributesOfItemAtURL( url ))end ifend fnfn DoItHandleEvents

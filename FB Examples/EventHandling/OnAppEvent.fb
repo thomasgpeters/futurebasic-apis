@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn BuildWindowwindow 1, @"App Events", (0,0,550,400)end fnvoid local fn DoAppEvent( ev as long )select (ev)case _appWillFinishLaunchingNSLog(@"_appWillFinishLaunching")fn BuildWindowend selectend fnon appevent fn DoAppEventHandleEvents

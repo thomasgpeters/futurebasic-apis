@@ -1,0 +1,1 @@
+include "NSLog.incl"local fn DoItNSLog(@"Filename: %@\nLine num: %ld\nLine text: \"%@\"",sourcefilename,sourcelinenum,sourcelinetext)end fnfn DoItHandleEvents

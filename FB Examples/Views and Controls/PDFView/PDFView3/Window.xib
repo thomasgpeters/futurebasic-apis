@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+        <plugIn identifier="com.apple.pdfkit.ibplugin" version="21701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <rect key="contentRect" x="0.0" y="97" width="780" height="820"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1728" height="1079"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="780" height="820"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <pdfView identifier="1" autoresizesSubviews="NO" wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vwe-Kg-wnc">
+                        <rect key="frame" x="158" y="0.0" width="627" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </pdfView>
+                    <pdfThumbnailView identifier="2" wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dmw-YT-rJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="820"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                        <size key="thumbnailSize" width="64" height="64"/>
+                    </pdfThumbnailView>
+                </subviews>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="6057D625-B430-45F4-B211-30B3B5FFE79F" explicitIdentifier="10" displayMode="iconOnly" sizeMode="regular" id="ueO-kG-vOY">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="uYK-AS-OmC"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="Zhx-vJ-9EO"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="PxO-Bw-e52"/>
+                    <toolbarItem implicitItemIdentifier="3C4AA5AD-F57D-48BB-A907-FB15354C5F69" explicitItemIdentifier="11" label="Navigate" paletteLabel="Navigate" tag="11" sizingBehavior="auto" id="bLu-OH-axY">
+                        <nil key="toolTip"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" tag="11" id="Cpz-Jy-NRh">
+                            <rect key="frame" x="0.0" y="14" width="59" height="23"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <segmentedCell key="cell" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="momentary" id="BD9-bO-C4P">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment image="NSLeftFacingTriangleTemplate" width="24" tag="11"/>
+                                    <segment image="NSRightFacingTriangleTemplate" width="24" tag="1"/>
+                                </segments>
+                            </segmentedCell>
+                        </segmentedControl>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="285D7E69-A48B-44E3-B27B-A60AF2573C8C" explicitItemIdentifier="12" label="Page" paletteLabel="Page" tag="12" sizingBehavior="auto" id="3eP-kf-6iN">
+                        <nil key="toolTip"/>
+                        <textField key="view" verticalHuggingPriority="750" tag="12" id="gu5-tt-ojJ">
+                            <rect key="frame" x="2" y="14" width="30" height="21"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="ZD2-TM-z7T">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="bLu-OH-axY"/>
+                    <toolbarItem reference="3eP-kf-6iN"/>
+                    <toolbarItem reference="PxO-Bw-e52"/>
+                    <toolbarItem reference="uYK-AS-OmC"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <point key="canvasLocation" x="-333" y="-130"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSLeftFacingTriangleTemplate" width="12" height="17"/>
+        <image name="NSRightFacingTriangleTemplate" width="12" height="17"/>
+    </resources>
+</document>

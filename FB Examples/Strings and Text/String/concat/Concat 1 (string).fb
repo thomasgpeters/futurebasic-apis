@@ -1,0 +1,1 @@
+local fn DoIt as CFStringRefend fn = concat( @"One, ", @"Two, ", @"Three, ", @"O'Leary" )CFStringRef myStrmyStr = fn DoItHandleEvents

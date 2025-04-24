@@ -1,0 +1,1 @@
+/*  SKStoreProductViewController.incl  Bernie Wylde 20220316  Framework: StoreKit  Inherits from: ViewController/Object  macOS 11.0+*/#if _MACOSMAXALLOWED >= 110000// Classtoolbox fn SKStoreProductViewControllerClass = ClassRef// Delegate// Load new product screen#endif// 110000

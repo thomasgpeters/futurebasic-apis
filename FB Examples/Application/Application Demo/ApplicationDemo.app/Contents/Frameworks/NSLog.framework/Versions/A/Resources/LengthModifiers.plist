@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>h</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a short or unsigned short argument</string>
+	<key>hh</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a signed char or unsigned char argument</string>
+	<key>l</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a long or unsigned long argument</string>
+	<key>ll, q</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a long long or unsigned long long argument</string>
+	<key>L</key>
+	<string>Length modifier specifying that a following a, A, e, E, f, F, g, or G conversion specifier applies to a long double argument.</string>
+	<key>z</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a size_t</string>
+	<key>t</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a ptrdiff_t</string>
+	<key>j</key>
+	<string>Length modifier specifying that a following d, o, u, x, or X conversion specifier applies to a intmax_t or uintmax_t argument</string>
+</dict>
+</plist>

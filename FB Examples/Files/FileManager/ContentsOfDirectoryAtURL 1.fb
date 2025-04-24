@@ -1,0 +1,1 @@
+/*   ContentsOfDirectoryAtURL 1*/include "NSLog.incl"void local fn DoItOpenPanelSetCanChooseFiles( 1, NO )OpenPanelSetCanChooseDirectories( 1, YES )CFURLRef url = openpanel 1, @"Choose directory",, @"Choose"if ( url )CFArrayRef array = fn FileManagerContentsOfDirectoryAtURL( url, NULL, 0 )NSLog(@"%@",array)end ifend fnfn DoItHandleEvents

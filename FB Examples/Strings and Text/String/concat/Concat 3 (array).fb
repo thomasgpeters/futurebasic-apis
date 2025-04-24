@@ -1,0 +1,1 @@
+def fn MyArray as CFArrayRef = @[@"Golf",@"Hotel",@"India"]void local fn DoItCFArrayRef a1 = @[@"Alpha",@"Bravo",@"Charlie"]CFArrayRef a2 = @[@"Delta",@"Echo",@"Foxtrot"]CFArrayRef a3 = concat( a1, a2, fn MyArray, @[@"Juliet",@"Kilo",@"Lima",@"Mike"] )print a3end fnfn DoItHandleEvents

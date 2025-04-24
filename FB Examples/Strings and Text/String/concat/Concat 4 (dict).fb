@@ -1,0 +1,1 @@
+def fn MyDict as CFDictionaryRef = @{@"key6":@"Foxtrot",@"key7":@"Golf",@"key8":@"Hotel"}void local fn DoItCFDictionaryRef d1 = @{@"key1":@"Alpha",@"key2":@"Bravo",@"key3":@"Charlie"}CFDictionaryRef d2 = @{@"key4":@"Delta",@"key5":@"Echo"}CFDictionaryRef d3 = concat( d1, d2, fn MyDict, @{@"key9":@"India"})print d3end fnfn DoItHandleEvents

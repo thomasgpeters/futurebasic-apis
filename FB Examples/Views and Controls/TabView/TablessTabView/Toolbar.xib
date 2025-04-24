@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <toolbar implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" explicitIdentifier="1" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconAndLabel" sizeMode="small" id="lTY-uh-FcR">
+            <allowedToolbarItems>
+                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="8Li-IA-B6Z"/>
+                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="VA8-f2-jb6"/>
+                <toolbarItem implicitItemIdentifier="6B6094B0-A983-4A19-8A4E-7D57B1E3B76B" explicitItemIdentifier="Table1" label="Table1" paletteLabel="Table1" tag="1" image="NSBookmarksTemplate" selectable="YES" id="svK-DU-0YN">
+                    <size key="minSize" width="14" height="14"/>
+                    <size key="maxSize" width="14" height="14"/>
+                </toolbarItem>
+                <toolbarItem implicitItemIdentifier="4601E831-5AE7-4182-9A44-F57FECEB61EA" explicitItemIdentifier="Table2" label="Table2" paletteLabel="Table2" tag="2" image="NSListViewTemplate" selectable="YES" id="iDy-c0-cYB">
+                    <size key="minSize" width="14" height="10"/>
+                    <size key="maxSize" width="14" height="14"/>
+                </toolbarItem>
+            </allowedToolbarItems>
+            <defaultToolbarItems>
+                <toolbarItem reference="svK-DU-0YN"/>
+                <toolbarItem reference="iDy-c0-cYB"/>
+                <toolbarItem reference="VA8-f2-jb6"/>
+            </defaultToolbarItems>
+            <point key="canvasLocation" x="-165" y="76"/>
+        </toolbar>
+    </objects>
+    <resources>
+        <image name="NSBookmarksTemplate" width="17" height="18"/>
+        <image name="NSListViewTemplate" width="14" height="10"/>
+    </resources>
+</document>

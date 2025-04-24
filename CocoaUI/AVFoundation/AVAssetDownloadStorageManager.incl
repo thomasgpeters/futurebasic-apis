@@ -1,0 +1,1 @@
+/*  AVAssetDownloadStorageManager - https://developer.apple.com/documentation/avfoundation/avassetdownloadstoragemanager?language=objc  Bernie Wylde 20230508  Framework: AVFoundation  Inherits from: Object  macOS 11.0+// Apple docs say 10.15*/#if _MACOSMAXALLOWED >= 110000#endif// 110000

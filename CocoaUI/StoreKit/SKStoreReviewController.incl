@@ -1,0 +1,1 @@
+/*  SKStoreReviewController.incl  Bernie Wylde 20220316  Framework: StoreKit  Inherits from: ViewController/Object  macOS 10.14+*/#if _MACOSMAXALLOWED >= 101400// Classtoolbox fn SKStoreReviewControllerClass = ClassRef// Appropriate time for review#endif// 101400

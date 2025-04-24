@@ -1,0 +1,1 @@
+/*  CMBase.incl  Bernie Wylde 20180802  Framework: CoreMedia*/#if ndef _DEFINEDINCOCOA#define CMItemCount as CFIndex#define CMItemIndex as CFIndex#define CMPersistentTrackID as SInt32#endifsystem CMPersistentTrackID kCMPersistentTrackID_Invalid

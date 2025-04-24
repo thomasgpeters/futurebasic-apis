@@ -1,0 +1,1 @@
+/*   RecycleURLs (trash files)*/include "NSLog.incl"void local fn DoItOpenPanelSetAllowsMultipleSelection( 1, YES )CFArrayRef array = openpanel 1, @"Choose files to recycle",, @"Choose"if ( array )fn WorkspaceRecycleURLs( array )end ifend fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+void local fn DoItCFStringRef s = @"Hello"unichar chr = ucc(s)print chr,ucs(chr)long ifor i = 1 to len(s) - 1chr = ucc(s,i)print chr,ucs(chr)nextend fnfn DoItHandleEvents

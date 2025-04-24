@@ -1,0 +1,1 @@
+/*  SortUsingSelector*/include "NSLog.incl"void local fn DoItCFMutableArrayRef array = (CFMutableArrayRef)fn ObjectMutableCopy(@[@"Delta",@"Alpha",@"Foxtrot",@"Charlie",@"Echo",@"Bravo"])NSLog(@"%@",array)MutableArraySortUsingSelector( array, @"caseInsensitiveCompare:" )NSLog(@"%@",array)end fnfn DoItHandleEvents

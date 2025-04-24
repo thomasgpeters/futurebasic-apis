@@ -1,0 +1,1 @@
+/*  UserActivity+MKMapItem - https://developer.apple.com/documentation/foundation/nsuseractivity/1690596-mapitem?language=objc  Bernie Wylde 20190821  Framework: Foundation*/toolbox fn UserActivityMapItem( UserActivityRef ref ) = MKMapItemRef

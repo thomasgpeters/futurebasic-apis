@@ -1,0 +1,1 @@
+/*   FileExistsAtURL*/include "NSLog.incl"void local fn DoItBOOL flagCFURLRef url = openpanel 1if ( url )flag = fn FileManagerFileExistsAtURL( url )if ( flag ) then NSLog(@"Item exists")end ifend fnfn DoItHandleEvents

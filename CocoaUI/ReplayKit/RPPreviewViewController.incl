@@ -1,0 +1,1 @@
+/*  RPPreviewViewController.incl - https://developer.apple.com/documentation/replaykit/rppreviewviewcontroller?language=objc  Bernie Wylde 20210803  Framework: ReplayKit  macOS 11.0+*/#if _MACOSMAXALLOWED >= 110000#endif// 110000

@@ -1,0 +1,1 @@
+/*  Array of strings*/include "NSLog.incl"void local fn DoItCFStringRef   stringCFArrayRef array = @[@"One", @"Two", @"Three", @"Four", @"Five"]for string in arrayNSLog(@"%@",string)nextend fnfn DoItHandleEvents

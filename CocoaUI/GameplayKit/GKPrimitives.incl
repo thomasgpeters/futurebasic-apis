@@ -1,0 +1,1 @@
+/*  GKPrimitives  Bernie Wylde 20241130  Framework: GameplayKit*/#if ndef _DEFINEDINCOCOAbegin record GKBoxsimd_float3 boxMinsimd_float3 boxMaxend recordbegin record GKQuadsimd_float2 quadMinsimd_float2 quadMaxend recordbegin record GKTrianglesimd_float3 points[2]end record#endif

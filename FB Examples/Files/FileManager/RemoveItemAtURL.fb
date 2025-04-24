@@ -1,0 +1,1 @@
+/*   FM_RemoveItemAtURL*/include "NSLog.incl"void local fn DoItCFURLRef url = openpanel 1, @"Choose item to remove",, @"Choose"if ( url )if ( fn FileManagerRemoveItemAtURL( url ) )NSLog(@"Item removed" )elseNSLog(@"Item was not removed" )end ifend ifend fnfn DoItHandleEvents

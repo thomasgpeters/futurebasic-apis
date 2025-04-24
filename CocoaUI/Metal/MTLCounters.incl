@@ -1,0 +1,1 @@
+/*  MTLCounters  Bernie Wylde 20241220  Framework: Metal  macOS 10.15+*/#if _MACOSMAXALLOWED >= 101500/*  MTLCounterSet  Protocol*/// Identifytoolbox fn MTLCounterSetName( MTLCounterSetRef ref ) = CFStringRef// Check counterstoolbox fn MTLCounterSetCounters( MTLCounterSetRef ref ) = CFArrayRef#endif // 101500

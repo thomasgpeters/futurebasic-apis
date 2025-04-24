@@ -1,0 +1,1 @@
+/*   TrashItemAtURL*/include "NSLog.incl"void local fn DoItCFURLRef url = openpanel 1, @"Choose item to trash",, @"Choose"if ( url )FileManagerTrashItemAtURL( url )NSLog(@"Item trashed")end ifend fnfn DoItHandleEvents

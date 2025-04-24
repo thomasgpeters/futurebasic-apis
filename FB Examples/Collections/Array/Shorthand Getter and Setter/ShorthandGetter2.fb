@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn DoItlong count, indexCFArrayRef array = @[@"alpha",@"bravo",@"charlie",@"delta",@"echo",@"foxtrot"]count = fn ArrayCount( array )for index = 0 to count - 1NSLog(@"%@",array[index])nextend fnfn DoitHandleEvents

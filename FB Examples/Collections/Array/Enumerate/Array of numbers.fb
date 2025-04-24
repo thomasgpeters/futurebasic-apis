@@ -1,0 +1,1 @@
+/*  Array of numbers*/include "NSLog.incl"void local fn DoItCFNumberRef   numberCFArrayRef array = @[@1,@2,@3,@4,@5]for number in arrayNSLog(@"%@",number)nextfn ArrayObjectAtIndex( array, 0 )end fnfn DoItHandleEvents

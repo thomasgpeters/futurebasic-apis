@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Droplet Demo</string>
+	<key>CFBundleIconFile</key>
+	<string>BlueLeaf.icns</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Droplet Demo</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.bw.DropletDemo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>All Files</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>

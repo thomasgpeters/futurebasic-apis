@@ -1,0 +1,1 @@
+/*  AUPannerView.incl - https://developer.apple.com/documentation/coreaudiokit/aupannerview?language=objc  Bernie Wylde 20200224  Framework: CoreAudioKit  Inherits from: View/Responder/Object*/// Init//toolbox fn AUPannerViewWithAudioUnit( AudioUnit au ) = AUPannerViewRef// Audio unit//toolbox fn AUPannerViewAudioUnit( AUPannerViewRef ref ) = AudioUnit

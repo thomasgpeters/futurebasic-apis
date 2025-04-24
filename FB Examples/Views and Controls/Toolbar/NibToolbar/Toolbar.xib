@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <toolbar implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" explicitIdentifier="1" displayMode="iconAndLabel" sizeMode="regular" id="lUk-Et-gKv">
+            <allowedToolbarItems>
+                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="XgF-x5-jiW"/>
+                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="36r-lE-VU9"/>
+                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="Nar-gK-ImF"/>
+                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="gzh-mo-Vhh"/>
+                <toolbarItem implicitItemIdentifier="7BA81FD0-06B3-428D-9A86-113357F74444" label="Cup" paletteLabel="Cup" tag="2" image="Cup" sizingBehavior="auto" id="vDz-5c-z7O"/>
+                <toolbarItem implicitItemIdentifier="A17CA100-EE55-4CF4-A43D-A53E4D789277" label="Settings" paletteLabel="Settings" tag="1" image="NSActionTemplate" sizingBehavior="auto" id="oVC-he-MZi"/>
+                <toolbarItem implicitItemIdentifier="C1A14EEE-7012-4BBC-B7BE-8EC582B50C63" label="Info" paletteLabel="Info" tag="3" image="NSInfo" sizingBehavior="auto" id="25A-JO-1sX"/>
+            </allowedToolbarItems>
+            <defaultToolbarItems>
+                <toolbarItem reference="oVC-he-MZi"/>
+                <toolbarItem reference="vDz-5c-z7O"/>
+                <toolbarItem reference="gzh-mo-Vhh"/>
+                <toolbarItem reference="25A-JO-1sX"/>
+            </defaultToolbarItems>
+            <point key="canvasLocation" x="67" y="27"/>
+        </toolbar>
+    </objects>
+    <resources>
+        <image name="Cup" width="128" height="128"/>
+        <image name="NSActionTemplate" width="20" height="20"/>
+        <image name="NSInfo" width="32" height="32"/>
+    </resources>
+</document>

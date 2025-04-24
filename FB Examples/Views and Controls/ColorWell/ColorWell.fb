@@ -1,0 +1,1 @@
+void local fn BuildWindowwindow 1, @"ColorWell", (0,0,300,200)ColorRef col = fn ColorWithRGB( 1.0, 0.0, 0.0, 1.0 )colorwell 1,, col, (130,110,44,23)colorwell 2,, fn ColorBlue, (130,70,44,23)end fnfn BuildWindowHandleEvents

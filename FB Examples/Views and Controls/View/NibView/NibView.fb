@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn BuildWindowwindow 1nibview 1, @"View", @"MyView", (125,100)end fnvoid local fn DoDialog( ev as long, tag as long, wnd as long )select ( ev )case _btnClickNSLog(@"button %ld clicked in window %ld", tag, wnd)end selectend fnfn BuildWindowon dialog fn DoDialogHandleEvents

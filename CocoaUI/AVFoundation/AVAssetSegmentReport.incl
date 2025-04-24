@@ -1,0 +1,1 @@
+/*  AVAssetSegmentReport - https://developer.apple.com/documentation/avfoundation/avassetplaybackassistant?language=objc  Bernie Wylde 20230508  Framework: AVFoundation  Inherits from: Object  macOS 11.0+*/#if _MACOSMAXALLOWED >= 110000#endif// 110000

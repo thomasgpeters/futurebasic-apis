@@ -1,0 +1,1 @@
+void local fn DoInkeyCFStringRef s = inkey @"Press any key (except a modifier key) to continue"if ( s ) then print send fnvoid local fn DoDialog( ev as long )select ( ev )case _btnClick : fn DoInkeyend selectend fnwindow 1, @"Inkey Demo"button 1,,, @"Inkey"on dialog fn DoDialogHandleEvents

@@ -1,0 +1,1 @@
+void local fn DoitCFMutableDictionaryRef mutDict = fn MutableDictionaryWithDictionary(@{@"name":@"Romeo",@"age":@"42"})print mutDictmutDict[@"name"] = @"Juliet" // shorthand for: MutableDictionarySetValueForKey( mutDict, @"Juliet", @"name" )print mutDictmutDict[@"surname"] = @"Bravo"print mutDictend fnfn DoItHandleEvents

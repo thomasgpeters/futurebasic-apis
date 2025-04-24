@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BearImpl.incl</key>
+	<string>{{140, 45}, {974, 888}}</string>
+	<key>Prototypes.prot</key>
+	<string>{{556, 100}, {560, 746}}</string>
+	<key>SpriteKit Project.fbeproj</key>
+	<string>{{177, 492}, {305, 422}}</string>
+	<key>SpriteKit Project.main</key>
+	<string>{{212, 129}, {1068, 694}}</string>
+</dict>
+</plist>

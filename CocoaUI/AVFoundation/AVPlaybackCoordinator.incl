@@ -1,0 +1,1 @@
+/*  AVPlaybackCoordinator - https://developer.apple.com/documentation/avfoundation/avplaybackcoordinator?language=objc  Bernie Wylde 20230508  Framework: AVFoundation  Inherits from: Object  macOS 12.0+*/#if _MACOSMAXALLOWED >= 120000#endif// 120000

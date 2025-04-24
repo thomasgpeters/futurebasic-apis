@@ -1,0 +1,1 @@
+/*  Dictionary keys*/include "NSLog.incl"void local fn DoItCFStringRef   keyCFDictionaryRef dict = fn DictionaryWithObjects(@"Value1",@"Key1",@"Value2",@"Key2",@"Value3",@"Key3",@"Value4",@"Key4",@"Value5",@"Key5",NULL)NSLogSetTabInterval(50)for key in dictNSLog(@"%@\t%@",key,fn DictionaryObjectForKey(dict,key))nextend fnfn DoItHandleEvents

@@ -1,0 +1,1 @@
+/*  ByteCountFormatter*/include "NSLog.incl"void local fn DoItCFStringRef string = fn ByteCountFormatterStringFromByteCount( 1230000000, NSByteCountFormatterCountStyleFile )NSLog(@"%@",string)end fnfn DoItHandleEvents

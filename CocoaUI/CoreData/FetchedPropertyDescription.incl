@@ -1,0 +1,1 @@
+/*  FetchedPropertyDescription  Bernie Wylde 20241231  Framework: CoreData  Inherits from: PropertyDescription/Object*/// Fetch requesttoolbox fn FetchedPropertyDescriptionFetchRequest( FetchedPropertyDescriptionRef ref ) = FetchRequestReftoolbox FetchedPropertyDescriptionSetFetchRequest( FetchedPropertyDescriptionRef ref, FetchRequestRef request )

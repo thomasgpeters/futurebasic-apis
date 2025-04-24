@@ -1,0 +1,1 @@
+/*  MusicPlayer  Bernie Wylde 20211006  Framework: AudioToolbox*/#if ndef _DEFINEDINCOCOA#define MusicSequence as ptr#endif

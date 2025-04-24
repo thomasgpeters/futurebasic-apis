@@ -1,0 +1,1 @@
+/*  MTLAllocation  Bernie Wylde 20241220  Framework: Metal  Protocol  macOS 15.0+*/#if _MACOSMAXALLOWED >= 150000// Inspecttoolbox fn MTLAllocationAllocatedSize( MTLAllocationRef ref ) = NSUInteger#endif // 150000

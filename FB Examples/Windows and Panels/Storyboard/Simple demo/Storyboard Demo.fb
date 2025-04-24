@@ -1,0 +1,1 @@
+/*  Storyboard Demo  macOS 10.10+*/include "NSLog.incl"void local fn DoDialog( ev as long, tag as long, wnd as long )select ( ev )case _btnClickNSLog(@"_btnClick: %ld, window: %ld",tag,wnd)end selectend fnnibwindow 1, @"Storyboard"on dialog fn DoDialogHandleEvents

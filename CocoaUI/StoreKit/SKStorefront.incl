@@ -1,0 +1,1 @@
+/*  SKStorefront.incl  Bernie Wylde 20220316  Framework: StoreKit  Inherits from: Object  macOS 10.15+*/#if _MACOSMAXALLOWED >= 101500// Classtoolbox fn SKStorefrontClass = ClassRef// Identifytoolbox fn SKStorefrontCountryCode( SKStorefrontRef ref ) = CFStringReftoolbox fn SKStorefrontIdentifier( SKStorefrontRef ref ) = CFStringRef#endif// 101500

@@ -1,0 +1,1 @@
+/*  LocalizedNumberFormatRule.incl  Bernie Wylde 20250105  Framework: Foundation  Inherits from: Object  macOS 15.0+*/#if _MACOSMAXALLOWED >= 150000// Type methodstoolbox fn LocalizedNumberFormatRuleAutomatic = LocalizedNumberFormatRuleRef#endif // 150000

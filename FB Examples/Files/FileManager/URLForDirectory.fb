@@ -1,0 +1,1 @@
+/*  URLForDirectory*/include "NSLog.incl"void local fn DoItCFURLRef docDirURL = fn FileManagerURLForDirectory( NSDocumentDirectory, NSUserDomainMask )NSLog(@"Document directory: %@", docDirURL)end fnfn DoItHandleEvents

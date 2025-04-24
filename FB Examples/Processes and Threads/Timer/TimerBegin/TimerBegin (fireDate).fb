@@ -1,0 +1,1 @@
+/*  TimerBegin (fireDate)*/include "NSLog.incl"void local fn DoItCFTimeInterval ti = 5.0timerBegin ti, 1, YESfn SoundPlay( fn SoundNamed(@"Tink") )NSLog(@"Timer fired")timerendNSLog(@"Timer will start firing in %0.0f seconds",ti)end fnfn DoItHandleEvents

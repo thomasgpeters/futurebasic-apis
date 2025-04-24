@@ -1,0 +1,1 @@
+/*  AVAssetDownloadTask - https://developer.apple.com/documentation/avfoundation/avassetdownloadtask?language=objc  Bernie Wylde 20230508  Framework: AVFoundation  Inherits from: URLSessionTask/Object  macOS 10.15+*/#if _MACOSMAXALLOWED >= 101500#endif// 101500

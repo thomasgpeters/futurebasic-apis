@@ -1,0 +1,1 @@
+/*  PHChangeRequest  Bernie Wylde 20250112  Framework: Photos  Inherits from: Object  macOS 10.15+*/#if _MACOSMAXALLOWED >= 101500// Createtoolbox fn PHChangeRequestInit = PHChangeRequestRef // autoreleased#endif // 101500

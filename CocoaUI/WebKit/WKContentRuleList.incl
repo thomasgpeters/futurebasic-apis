@@ -1,0 +1,1 @@
+/*  WKContentRuleList.incl - https://developer.apple.com/documentation/webkit/wkcontentrulelist?language=objc  Bernie Wylde 20190221  Framework: WebKit  Inherits from: Object*/// Instance propertiestoolbox fn WKContentRuleListIdentifier( WKContentRuleListRef ref ) = CFStringRef

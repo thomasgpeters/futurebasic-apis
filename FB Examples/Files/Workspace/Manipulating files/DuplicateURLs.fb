@@ -1,0 +1,1 @@
+/*   DuplicateURLs*/_op = 1000void local fn DoItOpenPanelSetAllowsMultipleSelection( _op, YES )CFArrayRef array = openpanel _op, @"Choose files to duplicate",, @"Choose"// now show the panel (positive tag)if ( array )fn WorkspaceDuplicateURLs( array )end ifend fnfn DoItHandleEvents

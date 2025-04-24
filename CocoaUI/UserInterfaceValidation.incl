@@ -1,0 +1,1 @@
+/*  UserInterfaceValidation  Bernie Wylde 20250102  Framework: AppKit  Protocol*/// Infotoolbox fn UserInterfaceValidationAction( ValidatedUserInterfaceItemRef ref ) = SELReftoolbox fn UserInterfaceValidationTag( ValidatedUserInterfaceItemRef ref ) = NSInteger

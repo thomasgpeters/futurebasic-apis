@@ -1,0 +1,1 @@
+/*  WKNavigation.incl - https://developer.apple.com/documentation/webkit/wknavigation?language=objc  Bernie Wylde 20190221  Framework: WebKit  Inherits from: Object*/#if _MACOSMAXALLOWED >= 101500toolbox fn WKNavigationEffectiveContentMode( WKNavigationRef ref ) = WKContentMode// macOS 10.15+#endif// 101500

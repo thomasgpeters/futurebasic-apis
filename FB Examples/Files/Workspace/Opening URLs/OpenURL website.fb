@@ -1,0 +1,1 @@
+/*   OpenURL - website*/void local fn DoItCFURLRef url = fn URLWithString( @"https://www.apple.com" )fn WorkspaceOpenURL( url )end fnfn DoItHandleEvents

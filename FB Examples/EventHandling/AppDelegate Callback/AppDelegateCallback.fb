@@ -1,0 +1,1 @@
+include "NSLog.incl"void local fn BuildWindowwindow 1, @"App Events", (0,0,550,400)end fnvoid local fn MyAppDelegateCallback( ev as long, userData as ptr )select (ev)case _appWillFinishLaunchingNSLog(@"_appWillFinishLaunching")fn BuildWindowend selectend fnAppSetDelegateCallback( @fn MyAppDelegateCallback, NULL )HandleEvents

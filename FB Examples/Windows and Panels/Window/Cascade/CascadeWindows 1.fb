@@ -1,0 +1,1 @@
+/*   CascadeWindows 1*/void local fn BuildWindowsNSInteger   tagCGPoint pt = fn CGPointMake(25,25)for tag = 1 to 5window tag, fn StringWithFormat(@"Window %ld",tag)pt = fn WindowCascadeTopLeftFromPoint( tag, pt )next tagend fnfn BuildWindowsHandleEvents
